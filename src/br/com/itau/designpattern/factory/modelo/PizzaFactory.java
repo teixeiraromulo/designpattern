@@ -5,12 +5,13 @@ public class PizzaFactory {
     public PizzaFactory() {
     }
 
-    public static Pizza getPizza(boolean salgado) {
-        if (salgado) {
+    public static Pizza getPizza(String tipoPizza) {
+        if (tipoPizza.equalsIgnoreCase("Salgado")) {
             return new PizzaLombo();
-        } else {
+        } else if (tipoPizza.equalsIgnoreCase("Doce")) {
             return new PizzaChocolate();
         }
+        return null;
     }
 
 }

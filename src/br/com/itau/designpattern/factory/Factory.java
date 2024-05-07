@@ -6,8 +6,8 @@ public class Factory {
 
     public static void main(String[] args) {
 
-        var pizzaSalgada = PizzaFactory.getPizza(true);
-        var pizzaDoce = PizzaFactory.getPizza(false);
+        var pizzaSalgada = PizzaFactory.getPizza("salgado");
+        var pizzaDoce = PizzaFactory.getPizza("doce");
 
 
         System.out.println(pizzaSalgada);
