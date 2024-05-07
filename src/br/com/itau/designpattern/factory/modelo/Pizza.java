@@ -17,9 +17,8 @@ public abstract class Pizza {
 
     @Override
     public String toString() {
-        return "Pizza(" +
-                "ingredientes=" + ingredientes +
-                ')';
+        return "Ingredientes da pizza: " +
+                ingredientes;
     }
 }
 

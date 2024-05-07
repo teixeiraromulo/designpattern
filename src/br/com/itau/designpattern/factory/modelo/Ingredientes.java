@@ -19,7 +19,7 @@ public class Ingredientes {
     @Override
     public String toString() {
 
-        return "Ingredientes {" + "name=" + name + '\'' + '}';
+        return name + '\'';
 
     }
 
